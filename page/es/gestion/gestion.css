@@ -86,4 +86,12 @@ nav {
 .nav-link-last {
     margin-left: auto;
     margin-right: 16px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-img-language-switch {
+    height: 32px;
+    width: 48px;
 }
