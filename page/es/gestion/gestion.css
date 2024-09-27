@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PixelFont', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('../../assets/fonts/Minecraft.ttf');
+}
+
+header {
+    width: 100%;
+    height: 3rem;
+    border: 1px;
+    background-color: black;
+}
+
+header img {
+    height: 60px;
+    width: 300px;
+}
+
+body {
+    width: 100%;
+    height: 94rem;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: cyan;
+}
+
+.gamelist-table {
+    border: 2px solid rgb(140 140 140);
+    letter-spacing: 1px;
+    border-collapse: collapse;
+    width: 35rem;
+    align-self: center;
+    margin-top: -3rem;
+}
+
+.gamelist-table-head {
+    font-size: 2rem;
+    border: 1px solid rgb(160 160 160);
+}
+
+.gamelist-table-body {
+    border: 1px solid rgb(160 160 160);
+}
+
+.add-game-btn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    margin-left: 65rem;
+}
+
+.game-list-lbl {
+    align-self: center;
+    justify-self: center;
+    margin-top: 8px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: wheat;
+    margin-left: 16px;
+}
+
+nav {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-img-logo {
+    height: 48px;
+}
+
+.nav-link-last {
+    margin-left: auto;
+    margin-right: 16px;
+}

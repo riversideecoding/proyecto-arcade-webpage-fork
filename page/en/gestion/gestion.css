@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'PixelFont';
-    src: url('../assets/fonts/Minecraft.ttf');
+    src: url('../../assets/fonts/Minecraft.ttf');
 }
 
 header {
@@ -17,9 +17,8 @@ header {
 }
 
 header img {
-height: 60px;
-width: 300px;
-
+    height: 60px;
+    width: 300px;
 }
 
 body {
@@ -58,5 +57,33 @@ footer {
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    margin-left: 85rem;
+    margin-left: 65rem;
+}
+
+.game-list-lbl {
+    align-self: center;
+    justify-self: center;
+    margin-top: 8px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: wheat;
+    margin-left: 16px;
+}
+
+nav {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-img-logo {
+    height: 48px;
+}
+
+.nav-link-last {
+    margin-left: auto;
+    margin-right: 16px;
 }
