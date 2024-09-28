@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroFighters Arcade | Management</title>
-    <link rel="stylesheet" href="./gestion.css">
-    <script src="./gestion.js"></script>
+    <link rel="stylesheet" href="../../styles/gestion.css">
+    <script src="../../scripts/gestion.js"></script>
+    <script type="module" src="../../scripts/temp/gameImporter.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,19 @@
                 <img src="../../assets/image/site_logo.png" alt="RetroFighters Logo" class="nav-img-logo">
             </a>
             <a href="../gestion/gestion.html" class="nav-link">
-                Management
+                <p>
+                    Manage
+                </p>
             </a>
             <div class="nav-link-last">
                 <a href="../../es/gestion/gestion.html" class="nav-link">
-                    Español
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
+                        alt="Bandera de Uruguay, cambia a Español" class="nav-img-language-switch">
                 </a>
                 <a href="../sesion/sesion.html" class="nav-link">
-                    Login
+                    <p>
+                        Account
+                    </p>
                 </a>
             </div>
         </nav>
@@ -34,18 +40,13 @@
         <button class="add-game-btn" type="button">+</button>
         <table class="gamelist-table">
             <thead class="gamelist-table-head">
-                <tr>
+                <tr class="gamelist-table-row">
                     <th scope="col">Name</th>
                     <th scope="col">Console</th>
                     <th scope="col">Emulator</th>
                 </tr>
             </thead>
             <tbody class="gamelist-table-body">
-                <tr>
-                    <th scope="col">Pacman</th>
-                    <th scope="col">Atari</th>
-                    <th scope="col">Atari 2000</th>
-                </tr>
             </tbody>
         </table>
 
