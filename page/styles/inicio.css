@@ -79,12 +79,12 @@ main {
 .juego1 img {
    width: 150px;
    height: 150px;
-   margin-top: 1.5em;
+   margin-top: 2em;
 }
 
 .juego1 > p {
     height: 30%;
-    
+    padding: 8px;
 }
 
 main {
