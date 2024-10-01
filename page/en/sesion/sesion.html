@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sesiont</title>
     <link rel="stylesheet" href="../../styles/sesion.css">
+    <script src="/page/scripts/sesion.js"></script>
 </head>
 <body>
  <header>
@@ -32,18 +33,20 @@
  </header>
 
  <main>
-     <form>
-        <div class="Usuario">
-        <label>Username</label>
-            <input type="text">
-        </div>
-        <div class="Contraseña">
-        <label>Password</label>
-             <input type="password">
-        </div>     
-             <input type="submit">
-     </form>
- </main> 
+    <form>
+       <div class="Usuario">
+       <label for=""> Username</label>
+           <input type="text" placeholder="Ingrese su usuario" id="usuario">
+       </div>
+
+       <div class="Contraseña">
+       <label for="">Password</label>
+            <input type="password" placeholder="Ingrese su Contraseña" id="contraseña">
+       </div>     
+
+            <input type="button" value="Ingresar" onclick="loguear()">
+    </form>
+</main> 
 
 </body>
 </html>
