@@ -5,6 +5,9 @@ body {
     font-family: 'PixelFont';
     flex-direction: column;
     margin: 0%;
+    background-image: url(/page/assets/image/Fondo\ Wallpaper.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @font-face {
@@ -12,13 +15,20 @@ body {
     src: url('../assets/fonts/Minecraft.ttf');
 }
 
+main{
+    height: 200px;
+    width: 100%;
+}
+
 form {
  padding: 50px;
- border: 2px solid black;
+ border: 2px  solid white;
  display: flex;
  flex-direction: column;
  gap: 3px;
- background-color: white;
+ background-color: black;
+ color: white;
+ margin-bottom: 250px;
 }
 
 .Usuario{
