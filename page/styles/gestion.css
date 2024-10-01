@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'PixelFont', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F2F3F5;
 }
 
 @font-face {
@@ -27,6 +28,7 @@ body {
     background-color: cornflowerblue;
     display: flex;
     flex-direction: column;
+    background-image: url('../assets/image/fondo_wallpaper.png');
 }
 
 footer {
@@ -36,7 +38,7 @@ footer {
 }
 
 .gamelist-table {
-    border: 2px solid #313338;
+    border: 2px solid #F2F3F5;
     letter-spacing: 1px;
     border-collapse: collapse;
     width: 35rem;
@@ -47,11 +49,11 @@ footer {
 
 .gamelist-table-head {
     font-size: 2rem;
-    border: 1px solid #313338;
+    border: 1px solid #F2F3F5;
 }
 
 .gamelist-table-body {
-    border: 1px solid #313338;
+    border: 1px solid #F2F3F5;
 }
 
 .add-game-btn {
@@ -60,12 +62,14 @@ footer {
     font-size: 3rem;
     margin-left: auto;
     margin-right: 32px;
+    color: #313338;
 }
 
 .game-list-lbl {
     align-self: center;
     justify-self: center;
-    margin-top: 8px;
+    margin-top: 1.5em;
+    margin-bottom: 0.25em;
 }
 
 .nav-link {
@@ -85,6 +89,10 @@ nav {
     height: 48px;
 }
 
+.nav-link>img {
+    margin-top: 8px;
+}
+
 .nav-link-last {
     margin-left: auto;
     margin-right: 16px;
@@ -96,7 +104,7 @@ nav {
 .nav-img-language-switch {
     height: 32px;
     width: 48px;
-    border: 1px black solid;
+    border: 1px #F2F3F5 solid;
     border-radius: 5px;
     object-fit: cover;
 }
@@ -106,7 +114,7 @@ nav {
     columns: 3;
 }
 
-.gamelist-table-game-row{
+.gamelist-table-game-row {
     columns: 3;
     column-gap: 2em;
 }
