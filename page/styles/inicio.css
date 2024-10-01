@@ -64,8 +64,8 @@ main {
 }
 
 .juego1 {
-    width: 200px;
-    height: 250px;
+    width: 240px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,18 +73,11 @@ main {
     border: 2px solid black;
 }
 .juego1 img {
-   width: 250px;
-   height: 250px;
-   
-
-
-}
-
-.imagen {
-    border: 1px solid black;
-    height: 1000px;
-    width: 100px;
-
+   width: 150px;
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   z-index: -1;
 }
 
 main {
