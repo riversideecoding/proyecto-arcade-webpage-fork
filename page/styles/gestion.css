@@ -43,7 +43,6 @@ footer {
     border-collapse: collapse;
     width: 35rem;
     align-self: center;
-    margin-top: -3rem;
     margin-bottom: 1em;
 }
 
@@ -60,8 +59,7 @@ footer {
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    margin-left: auto;
-    margin-right: 32px;
+    align-self: center;
     color: #313338;
 }
 
