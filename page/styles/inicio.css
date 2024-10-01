@@ -64,20 +64,26 @@ main {
 }
 
 .juego1 {
-    width: 240px;
+    width: 220px;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: start;
     align-items: center;
     border: 2px solid black;
+    text-align: center;
+    
+
 }
 .juego1 img {
    width: 150px;
    height: 150px;
-   display: flex;
-   justify-content: center;
-   z-index: -1;
+  background-position: 1%;
+}
+
+.juego1 > p {
+    height: 30%;
 }
 
 main {
