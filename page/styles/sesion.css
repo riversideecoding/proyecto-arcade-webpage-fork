@@ -47,7 +47,8 @@ header {
 
 header img {
     height: 60px;
-    width: 300px;
+    width: auto;
+
 }
 
 .nav-link {
