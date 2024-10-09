@@ -56,14 +56,6 @@ nav {
     object-fit: cover;
 }
 
-main {
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black solid;
-}
-
 .juego1 {
     width: 220px;
     height: 500px;
@@ -93,4 +85,5 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 32px;
+    background-color: #313338;
 }
