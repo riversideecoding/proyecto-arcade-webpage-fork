@@ -29,12 +29,8 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url('../assets/image/fondo_wallpaper.png');
-}
-
-footer {
-    width: 100%;
-    height: 3rem;
-    background-color: cyan;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .gamelist-table {
@@ -116,3 +112,4 @@ nav {
     columns: 3;
     column-gap: 2em;
 }
+

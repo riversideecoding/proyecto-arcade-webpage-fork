@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PixelFont';
+    flex-direction: column;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('../assets/fonts/Minecraft.ttf');
+}
+
+header {
+    width: 100%;
+    height: 3rem;
+    border: 1px;
+    background-color: #313338;
+}
+
+header img {
+    height: 60px;
+    width: auto;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #F2F3F5;
+    margin-left: 16px;
+}
+
+nav {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-img-logo {
+    height: 48px;
+}
+
+.nav-link-last {
+    margin-left: auto;
+    margin-right: 16px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-img-language-switch {
+    height: 32px;
+    width: 48px;
+    border: 1px black solid;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/image/fondo_wallpaper.png');
+    background-repeat: no-repeat;
+    background-size:auto ;
+    background-attachment: fixed;
+}
+
+table {
+    color: white;
+    height: 150px;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+table, td, tr, th{
+    border: 1px solid white;
+}
+
+td {
+    width: 100px;
+}
+
+
+
