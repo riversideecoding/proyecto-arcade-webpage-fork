@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sesiont</title>
+    <title>Log In | RetroFighters Arcade</title>
     <link rel="stylesheet" href="../../styles/sesion.css">
     <script src="/page/scripts/sesion.js"></script>
 </head>
@@ -13,20 +13,24 @@
           <a href="../inicio/inicio.html">
               <img src="../../assets/image/site_logo.png" alt="RetroFighters Logo" class="nav-img-logo">
           </a>
+          <a href="../leaderboard/leaderboard.html" class="nav-link">
+            <p>
+                Leaderboard
+            </p>
           <a href="../gestion/gestion.html" class="nav-link">
               <p>
                   Manage
               </p>
           </a>
+          <a href="../aboutus/aboutus.html" class="nav-link">
+            <p>
+                About Us
+            </p>
+        </a>
           <div class="nav-link-last">
               <a href="../../es/sesion/sesion.html" class="nav-link">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
                       alt="Bandera de Uruguay, cambia a Español" class="nav-img-language-switch">
-              </a>
-              <a href="../sesion/sesion.html" class="nav-link">
-                  <p>
-                      Account
-                  </p>
               </a>
           </div>
        </nav>
@@ -36,15 +40,15 @@
     <form>
        <div class="Usuario">
        <label for=""> Username</label>
-           <input type="text" placeholder="Ingrese su usuario" id="usuario">
+           <input type="text" placeholder="Enter your username" id="usuario">
        </div>
 
        <div class="Contraseña">
        <label for="">Password</label>
-            <input type="password" placeholder="Ingrese su Contraseña" id="contraseña">
+            <input type="password" placeholder="Enter your password" id="contraseña">
        </div>     
 
-            <input type="button" value="Ingresar" onclick="loguear()">
+            <input type="button" value="Log In" onclick="loguear()">
     </form>
 </main> 
 
