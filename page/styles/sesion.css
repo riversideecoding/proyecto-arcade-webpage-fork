@@ -7,8 +7,10 @@ body {
     margin: 0%;
     background-image: url('../assets/image/fondo_wallpaper.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
     background-attachment: fixed;
+    overflow-x:scroll;
+    overflow-y:hidden;
 }
 
 @font-face {

@@ -69,7 +69,6 @@ main {
     height: 47rem;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 table {
@@ -77,13 +76,14 @@ table {
     height: 150px;
     width: 600px;
     border-collapse: collapse;
+    margin-top: 200px;
 }
 
 table, td, tr, th{
     border: 1px solid white;
 }
 
-td {
+td, tr, th {
     width: 100px;
 }
 
