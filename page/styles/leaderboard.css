@@ -5,6 +5,10 @@ body {
     font-family: 'PixelFont';
     flex-direction: column;
     margin: 0%;
+    background-image: url('../assets/image/fondo_wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 @font-face {
@@ -66,10 +70,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/image/fondo_wallpaper.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 table {
