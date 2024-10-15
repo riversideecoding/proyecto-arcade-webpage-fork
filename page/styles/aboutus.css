@@ -18,6 +18,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     flex-direction: column;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 .container {
