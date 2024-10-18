@@ -1,15 +1,15 @@
-function loguear()
-{
+function loguear() {
 
-let user=document.getElementById("usuario").value
-let pass=document.getElementById("contraseña").value
+    let user = document.getElementById("usuario").value;
+    let pass = document.getElementById("contraseña").value;
 
-if(user=="TestUser" && pass=="123test"){
+    if (user === "TestUser" && pass === "123test") {
+        localStorage.setItem("username", user);
+        localStorage.setItem("password", pass);
+        window.location.href = "../inicio/inicio.html";
 
-    window.location.href ="../inicio/inicio.html";
-
-}else{
-
-    alert("Error al iniciar sesion")
-}
+        console.log(localStorage.getItem("username"));
+    }
+    else
+        alert("Error al iniciar sesion")
 }

@@ -48,7 +48,6 @@ const games = [
 
 window.onload = (event) => {
     const table = document.querySelector(".gamelist-table-body");
-    console.log(games);
     games.forEach((item) => {
         let value = '<tr class="gamelist-table-game-row"> ' +
             '<th scope="col">' + item.name + '</th>' +
