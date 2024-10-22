@@ -19,7 +19,6 @@ body {
     background-attachment: fixed;
     flex-direction: column;
     overflow-x:hidden;
-    overflow-y:hidden;
 }
 
 .container {
@@ -89,13 +88,63 @@ nav {
 
 .team-section {
     margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff;
 }
 
 .team-section h2 {
     color: #ffffff;
+
 }
 
 @font-face {
     font-family: 'PixelFont';
     src: url('../assets/fonts/Minecraft.ttf');
+}
+
+.integrantes{
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.integrantes h3{
+    margin-top: 10px;;
+}
+
+.integrantes img{
+     width: 9em;
+    height: 9em;
+}
+
+.integrante{
+    display: flex;
+    flex-direction: column;
+}
+
+.integranteinfo{
+    display: flex;
+    flex-direction: row;
+}
+
+.integranteinfo p{
+    margin-left: 20px;
+}
+
+.integrante2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;   
+    align-items: end;
+}
+
+.integranteinfo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.integranteinfo2 p{
+    margin-right: 20px;
 }
