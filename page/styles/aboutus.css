@@ -142,6 +142,7 @@ nav {
 .integrante{
     display: flex;
     flex-direction: column;
+    
 }
 
 .integranteinfo{
@@ -167,5 +168,11 @@ nav {
 
 .integranteinfo2 p{
     margin-right: 20px;
+}
+
+.integrante p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
 }
 
