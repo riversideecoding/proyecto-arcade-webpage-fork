@@ -21,6 +21,8 @@ body {
     overflow-x:hidden;
 }
 
+
+
 .container {
     width: 80%;
     margin: auto;
@@ -30,6 +32,7 @@ body {
     color:  #ffffff;
     background-color: #2b2c30;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 header {
@@ -148,3 +151,4 @@ nav {
 .integranteinfo2 p{
     margin-right: 20px;
 }
+
