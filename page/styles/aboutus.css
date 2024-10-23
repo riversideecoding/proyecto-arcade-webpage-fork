@@ -140,15 +140,16 @@ nav {
 }
 
 .integrante{
-    margin-top: 2em;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
-    
 }
 
 .integranteinfo{
     display: flex;
     flex-direction: row;
+    padding-bottom: 1em;
+    border-bottom: 2px dotted #ffffff;
 }
 
 .integranteinfo p{
@@ -165,6 +166,7 @@ nav {
 .integranteinfo2 {
     display: flex;
     flex-direction: row;
+    border-bottom: 2px dotted #ffffff;
 }
 
 .integranteinfo2 p{
@@ -177,3 +179,7 @@ nav {
     margin-bottom: 2em;
 }
 
+#axel{
+    padding-top: 2px;
+    border-top: 2px dotted #ffffff;
+}
