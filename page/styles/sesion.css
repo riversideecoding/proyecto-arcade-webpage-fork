@@ -20,13 +20,13 @@ body {
 
 form {
     padding: 50px;
-    border: 2px solid white;
     display: flex;
     flex-direction: column;
     gap: 3px;
-    background-color: black;
+    background-color: #000000;
+    border: 2px solid white;
     color: white;
-    
+    border-radius: 1em;
 }
 
 .Usuario {
@@ -96,3 +96,22 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+input {
+    padding: 5px 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'PixelFont';
+    src: url('../assets/fonts/Minecraft.ttf');
+  }
+  
+  input:hover {
+    background-color: #dddddd;
+  }
+  
+  input:active {
+    background-color: #dddddd;
+  }
