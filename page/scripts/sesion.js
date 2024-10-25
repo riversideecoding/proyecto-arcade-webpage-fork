@@ -1,27 +1,35 @@
+import SesionDAO from "../../dao/sesionDAo.js";
+
 window.onload = () => {
+    loadEvents();
+    getSession();
+}
+
+function loadEvents() {
+    let form = document.querySelector("#login-form");
+
+    form.onsubmit = (e) => {
+        e.preventDefault();
+        let user = form.user.value;
+        let pass = form.password.value;
+        logIn(user, pass);
+    }
 
 }
 
-function logIn() {
-    let user = document.getElementById("usuario").value;
-    let pass = document.getElementById("contraseña").value;
-
+async function logIn(user, pass) {
+    let logInDao = new SesionDAO();
     if (!user || !pass) {
-        alert("Faltan datos. Verifique.")
+        alert("Faltan datos. Verifique.");
+        return false;
     }
-    else if (user === "TestUser" && pass === "123test") {
-        if (checkLoggedIn()) {
-            alert("Ya estas logeado.");
-        } else {
-            localStorage.username = user;
-            window.location.href = "../gestion/gestion.html";
-            console.log(localStorage.username);
-        }
+
+    if(logInDao.iniciarSesion(user, pass)){
+
     }
-    else
-        alert("Error al iniciar sesion")
+
 }
 
-function checkLoggedIn() {
-    return localStorage.username ? true : false;
+async function getSession() {
+    return new SesionDAO().obtenerSesion();
 }

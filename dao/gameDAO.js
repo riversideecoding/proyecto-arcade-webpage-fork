@@ -12,7 +12,7 @@ export default class GameDAO {
     async agregarJuego(nombre, descipcion, imagen) {
         let usuario = new SesionDAO().obtenerSesion();
         console.log(usuario);
-        if (usuario ) {
+        if (usuario) {
 
             let url = Origen + `controller/gameController.php?request=agregarJuego&usuario=${usuario.usuario}&key=${usuario.apikey}`;
             console.log(url);
@@ -34,7 +34,7 @@ export default class GameDAO {
         }
     }
 
-    async editarJuego(id,nombre, descipcion, imagen) {
+    async editarJuego(id, nombre, descipcion, imagen) {
         let usuario = new SesionDAO().obtenerSesion();
         if (usuario) {
             let url = Origen + `controller/gameController.php?request=modificarJuego&usuario=${usuario.usuario}&key=${usuario.apikey}`;
@@ -47,7 +47,7 @@ export default class GameDAO {
                 method: "POST",
                 body: data
             };
-            console.log(id,nombre,descipcion,imagen);
+            console.log(id, nombre, descipcion, imagen);
             let response = await fetch(url, config);
             let json = await response.json();
             return json;
