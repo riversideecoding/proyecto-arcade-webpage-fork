@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In | RetroFighters Arcade</title>
     <link rel="stylesheet" href="../../styles/sesion.css">
-    <script src="../../scripts/sesion.js"></script>
+    <script type="module" src="../../scripts/sesion.js"></script>
 </head>
 
 <body>
@@ -45,8 +45,7 @@
                 <label for="password">Password</label>
                 <input type="password" placeholder="Enter your password" id="password">
             </div>
-
-            <input type="button" value="Log In" onclick="logIn()">
+            <input type="button" value="Log In" id="login-btn">
         </form>
     </main>
 
