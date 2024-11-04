@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | RetroFighters Arcade</title>
     <link rel="stylesheet" href="../../styles/inicio.css">
+    <script src="../../scripts/general.js"></script>
 </head>
 
 <body>
@@ -14,23 +15,13 @@
             <a href="../inicio/inicio.html">
                 <img src="../../assets/image/site_logo.png" alt="RetroFighters Logo" class="nav-img-logo">
             </a>
-            <a href="../gestion/gestion.html" class="nav-link">
-                <p>
-                    Manage
-                </p>
-            </a>
-            <a href="../aboutus/aboutus.html" class="nav-link">
-                <p>
-                    About Us
-                </p>
-            </a>
             <div class="nav-link-last">
                 <a href="../../es/inicio/inicio.html" class="nav-link">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
-                        alt="Bandera de Uruguay, cambia a Español" class="nav-img-language-switch">
+                        alt="URU Flag, language switch to Spanish" class="nav-img-language-switch">
                 </a>
                 <a href="../sesion/sesion.html" class="nav-link">
-                    <p>
+                    <p id="account-name">
                         Account
                     </p>
                 </a>
@@ -39,41 +30,44 @@
     </header>
 
     <main>
-        <div class="juego1">
-            <h3>Gran Turismo</h3>
-            <p>Gran Turismo is a driving simulator developed for the PlayStation 1. Gran Turismo was developed by
-                Poliphony Digital and published by Sony Computer Entertainment in 1999. It is the sequel to Gran Turismo
-                1.</p>
-            <p class="imagen"><img src="/page/assets/image/Gran Turismo 2 PS1 Logo.webp" alt=""></p>
-        </div>
-        <div class="juego1">
-            <h3>Super Mario Bros</h3>
-            <p>It is a platform video game developed and published in 1985 by Nintendo for the Famicom in Japan and for
-                the Nintendo Entertainment System in North America. It is the successor to the 1983 arcade game Mario
-                Bros and the first in the Super Mario series.</p>
-            <p class="imagen"><img src="/page/assets/image/Mario Bros NES Logo.webp" alt=""></p>
-        </div>
-        <div class="juego1">
-            <h3>Tetris</h3>
-            <p>It is a Soviet logic video game originally designed and programmed by Aleksei Pázhitnov. It was published
-                on June 6, 1984, while he was working for the Academy of Sciences of the Soviet Union in Moscow.</p>
-            <p class="imagen"><img src="/page/assets/image/tetrix1.png" alt=""></p>
-        </div>
-        <div class="juego1">
-            <h3>Sonic The Hedgehog</h3>
-            <p>Sonic The Hedgehog is a platform video game developed by the Sonic Team and published by Sega for the
-                home console Sega Mega Drive (also known as the Sega Genesis) in 1991. It went on sale in North America
-                on June 23 and in the regions PAL and Japan the following month.</p>
-            <p class="imagen"><img src="/page/assets/image/sonic1.png" alt=""></p>
-        </div>
-        <div class="juego1">
-            <h3>Crash Bandicoot</h3>
-            <p>It is a platform video game developed by Naughty Dog and published by Sony Computer Entertainment for the
-                PlayStation in 1996. The player controls Crash, a genetically enhanced bandicoot created by mad
-                scientist Doctor Neo Cortex.</p>
-            <p class="imagen"><img src="/page/assets/image/crash_bandicoot.jpg" alt=""></p>
-        </div>
+        <main class="gallery">
+            <div class="image-container">
+                <a href="../games/games.html">
+                    <img src="../../assets/home_img/Retro Fighters Logo No Back.png" alt="Games.img">
+                    <div class="overlay">
+                        <h3>Games</h3>
+                    </div>
+                </a>
+            </div>
 
+            <div class="image-container">
+                <a href="../aboutus/aboutus.html">
+                    <img src="../../assets/home_img/AboutUs.png" alt="AboutUs.png">
+                    <div class="overlay">
+                        <h3>About Us</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="image-container">
+                <a href="../documentation/documentation.html">
+                <img src="../../assets/home_img/Documentacion.png" alt="Documentacion.png">
+                <div class="overlay">
+                    <h3>Documentation</h3>
+                </div>
+            </a>
+            </div>
+
+            <div class="image-container">
+                <a href="../community/community.html">
+                <img src="../../assets/home_img/Comunidad.png" alt="Comunidad.jpg">
+                <div class="overlay">
+                    <h3>Community</h3>
+                </div>
+                </a>
+            </div>
+
+        </main>
     </main>
 
 </body>

@@ -125,3 +125,41 @@ main {
     color: #fff;
     font-size: 20px;
 }
+
+/*¨GAMES PANEL*/
+.game-panel {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .game-panel select {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .game-list .game-item {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .game-list img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .game-list p {
+    color: #fff;
+    margin-top: 5px;
+  }
