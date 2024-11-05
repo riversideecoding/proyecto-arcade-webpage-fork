@@ -41,16 +41,16 @@
         </nav>
     </header>
 
-    <body>
+
         <h1 class="game-list-lbl">Game List</h1>
-        <button class="add-game-btn" type="button">+</button>
+     
         <table class="gamelist-table">
           <thead>
             <tr>
-                <th></th>
-                <th></th> 
-                <th></th>
-                <th></th>
+                <th>Nombre</th>
+                <th>descripcion</th> 
+                <th>Imagen</th>
+                <th>Acciones</th>
             </tr>
           </thead>
           <tbody id="datosTabla">
@@ -58,6 +58,19 @@
           </tbody>
         </table>
 
+
+         <form id="formRegistrar">
+            <label>Nombre</label>
+            <input type="text" name="nombre" required>
+            
+            <label>descripcion</label>
+            <input type="text" name="descripcion" required>
+
+            <label>Imangenn</label>
+            <input type="file" name="imagen" required>
+
+            <input type="submit">
+         </form>
     </body>
 
 

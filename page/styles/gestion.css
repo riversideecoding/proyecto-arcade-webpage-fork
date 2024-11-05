@@ -115,6 +115,14 @@ body {
 }
 
 .imgTabla{
+    width: 100px;
+    height: 100px;
+}
+
+table{
     width: 100%;
 }
 
+table tr td{
+    border: 1px solid white;
+}
