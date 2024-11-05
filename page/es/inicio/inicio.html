@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | RetroFighters Arcade</title>
-    <link rel="stylesheet" href="../../styles/inicio.css">
+    <title>Games | RetroFighters Arcade</title>
+    <link rel="stylesheet" href="../../styles/juegos.css">
     <script src="../../scripts/general.js"></script>
 </head>
 
@@ -16,8 +16,8 @@
                 <img src="../../assets/image/site_logo.png" alt="RetroFighters Logo" class="nav-img-logo">
             </a>
             <div class="nav-link-last">
-                <a href="../../en/inicio/inicio.html" class="nav-link">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+                <a href="../../es/juegos/juegos.html" class="nav-link">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Uruguay.svg"
                         alt="USA Flag, language switch to English" class="nav-img-language-switch">
                 </a>
                 <a href="../sesion/sesion.html" class="nav-link">
@@ -30,44 +30,22 @@
     </header>
 
     <main>
-        <main class="gallery">
-            <div class="image-container">
-                <a href="../juegos/juegos.html">
-                    <img src="../../assets/home_img/Retro Fighters Logo No Back.png" alt="Games.img">
-                    <div class="overlay">
-                        <h3>Juegos</h3>
-                    </div>
-                </a>
-            </div>
-
-            <div class="image-container">
-                <a href="../sobrenosotros/sobrenostros.html">
-                    <img src="../../assets/home_img/AboutUs.png" alt="AboutUs.png">
-                    <div class="overlay">
-                        <h3>Sobre Nosotros</h3>
-                    </div>
-                </a>
-            </div>
-
-            <div class="image-container">
-                <a href="../documentacion/documentacion.html">
-                <img src="../../assets/home_img/Documentacion.png" alt="Documentacion.png">
-                <div class="overlay">
-                    <h3>Documentacion</h3>
+        <section class="games">
+            <h2>Nuestros juegos</h2>
+            <p>Explora el mundo de RetroFighters Arcade!</p>
+          
+            <div class="game-panel">
+              <select id="emulator-selector">
+                <option value="ps1">PlayStation 1</option>
+                <option value="nes">Nintendo NES</option>
+                <option value="sega">Sega Genessis</option>
+                <option value="atari">Atari 2600</option>
+                </select>
+          
+              <div class="game-list">
                 </div>
-            </a>
             </div>
-
-            <div class="image-container">
-                <a href="../comunidad/comunidad.html">
-                <img src="../../assets/home_img/Comunidad.png" alt="Comunidad.jpg">
-                <div class="overlay">
-                    <h3>Comunidad</h3>
-                </div>
-                </a>
-            </div>
-
-        </main>
+          </section>
     </main>
 
 </body>
