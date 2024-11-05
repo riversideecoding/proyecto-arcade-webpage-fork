@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../styles/gestion.css">
     <script src="../../scripts/gestion.js"></script>
     <script type="module" src="../../scripts/temp/gameImporter.js"></script>
+    <script type="module" src="../../scripts/gestion.js "></script>
 </head>
 
 <body>
@@ -44,15 +45,17 @@
         <h1 class="game-list-lbl">Game List</h1>
         <button class="add-game-btn" type="button">+</button>
         <table class="gamelist-table">
-            <thead class="gamelist-table-head">
-                <tr class="gamelist-table-row">
-                    <th scope="col">Name</th>
-                    <th scope="col">Console</th>
-                    <th scope="col">Emulator</th>
-                </tr>
-            </thead>
-            <tbody class="gamelist-table-body">
-            </tbody>
+          <thead>
+            <tr>
+                <th></th>
+                <th></th> 
+                <th></th>
+                <th></th>
+            </tr>
+          </thead>
+          <tbody id="datosTabla">
+
+          </tbody>
         </table>
 
     </body>
