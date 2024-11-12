@@ -67,62 +67,126 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    overflow-x:hidden;
-    overflow-y:hidden;
+    overflow-x: hidden;
+
 }
+
 
 .gamelist-table {
     border: 2px solid #F2F3F5;
     letter-spacing: 1px;
     border-collapse: collapse;
-    width: 35rem;
+    width: 80%;
+    max-width: 800px;
     align-self: center;
-    margin-bottom: 1em;
+    margin: 2rem auto;
+    background-color: rgba(43, 44, 48, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border: solid white 1px;
 }
 
-.gamelist-table-head {
-    font-size: 2rem;
-    border: 1px solid #F2F3F5;
+.gamelist-table th, .gamelist-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    color: #F2F3F5;
 }
 
-.gamelist-table-body {
-    border: 1px solid #F2F3F5;
+.gamelist-table th {
+    background-color: #333;
+    font-weight: bold;
 }
 
-.add-game-btn {
-    width: 3rem;
-    height: 3rem;
-    font-size: 3rem;
-    align-self: center;
-    color: #313338;
+.gamelist-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.imgTabla {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
 }
 
 .game-list-lbl {
-    align-self: center;
-    justify-self: center;
-    margin-top: 1.5em;
-    margin-bottom: 0.25em;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #F2F3F5;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.gamelist-table-row {
-    column-gap: 2em;
-    columns: 3;
+#formRegistrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 400px;
+    background-color: rgba(43, 44, 48, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: -380px;
+    border: solid white 1px;
+    top: 50px;
 }
 
-.gamelist-table-game-row {
-    columns: 3;
-    column-gap: 2em;
+#formRegistrar:hover{
+    position: absolute;
+    left: 0px ;
 }
 
-.imgTabla{
-    width: 100px;
-    height: 100px;
-}
 
-table{
+#formRegistrar label {
+    color: #F2F3F5;
+    font-size: 1rem;
+    text-align: left;
     width: 100%;
 }
 
-table tr td{
-    border: 1px solid white;
+#formRegistrar input[type="text"],
+#formRegistrar input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #F2F3F5;
+}
+
+#formRegistrar input[type="submit"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #F2F3F5;
+    background-color: #2b2c30;
+    border: 2px solid #F2F3F5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#formRegistrar input[type="submit"]:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Botón Eliminar */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2c30;
+    color: #F2F3F5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #444;
 }

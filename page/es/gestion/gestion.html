@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arcade RetroFighters | Gestionar</title>
+    <title>Management | RetroFighters Arcade</title>
     <link rel="stylesheet" href="../../styles/gestion.css">
-    <script src="../../scripts/general.js"></script>
+    <script src="../../scripts/gestion.js"></script>
     <script type="module" src="../../scripts/temp/gameImporter.js"></script>
-</head>
+<script type="module" src="../../scripts/gestion.js"></script></head>
 
 <body>
     <header>
@@ -19,21 +19,35 @@
         </nav>
     </header>
 
-    <body>
-        <h1 class="game-list-lbl">Lista de Juegos</h1>
-        <table class="gamelist-table">
-            <thead class="gamelist-table-head">
-                <tr class="gamelist-table-row">
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Consola</th>
-                    <th scope="col">Emulador</th>
-                </tr>
+         <form id="formRegistrar">
+            <label>Name</label>
+            <input type="text" name="nombre" required>
+            
+            <label>Description</label>
+            <input type="text" name="descripcion" required>
+
+            <label>Image</label>
+            <input type="file" name="imagen" required>
+
+            <input type="submit">
+         </form>
+
+         <table class="gamelist-table">
+            <thead>
+              <tr>
+                  <th>Nombre</th>
+                  <th>descripcion</th> 
+                  <th>Imagen</th>
+                  <th>Acciones</th>
+              </tr>
             </thead>
-            <tbody class="gamelist-table-body">
+            <tbody id="datosTabla">
+  
             </tbody>
-        </table>
-        <button class="add-game-btn" type="button">+</button>
+          </table>
+
     </body>
+
 
 </body>
 
