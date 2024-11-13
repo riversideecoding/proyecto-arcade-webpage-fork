@@ -25,7 +25,13 @@ header img {
     text-decoration: none;
     color: #F2F3F5;
     margin-left: 1em;
+   
 }
+
+#bandera{
+    margin-left: 45em;
+}
+
 
 nav {
     margin-left: 3.5em;
