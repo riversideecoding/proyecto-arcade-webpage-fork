@@ -126,7 +126,7 @@ section.content-documentacion {
     font-family: 'PixelFont', sans-serif;
     color: #F2F3F5;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px;
     max-width: 800px;
     background-color: rgba(43, 44, 48, 0.85); /* Dark semi-transparent background */
     border-radius: 8px;
