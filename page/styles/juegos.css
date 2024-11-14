@@ -13,8 +13,26 @@ body {
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
+    
 }
+
+body::-webkit-scrollbar {
+    width: 8px;    
+    height: 8px;    
+    
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2b2c30;
+}
+
+
+body::-webkit-scrollbar-track {
+    background: #1b1919;
+    border-radius: 4px;
+}
+
 
 @font-face {
     font-family: 'PixelFont';
@@ -94,6 +112,7 @@ main {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
+
 .juego:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -114,7 +133,7 @@ main {
 .juego img {
     width: 100%;
     height: auto;
-    max-height: 150px;
+    max-height: 200px;
     border-radius: 5px;
     margin-bottom: 0.5rem;
     
